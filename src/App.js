@@ -44,7 +44,7 @@ function App() {
         />
         <Card 
           title="Hola Mundo!" 
-          text="Lorem Ipsum  ipsum dolor amet amet ipsum dolor amet amet ipsum dolor amet amet" 
+          text="Lorem asd Ipsum  ipsum dolor amet amet ipsum dolor amet amet ipsum dolor amet amet" 
         />
       </div>
       </section>
