@@ -8,7 +8,7 @@ export default function Propiedades(props){
                 <li>{props.cadena}</li>
                 <li>{props.numero}</li>
                 <li>{props.booleano ? "Verdadero":"Falso"}</li>
-                <li>{props.array}</li>
+                <li>{props.array}</li> 
             </ul>
         </div>
     );
