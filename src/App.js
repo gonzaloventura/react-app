@@ -2,6 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import Componente from './components/Componente';
 import Propiedades from './components/Propiedades';
+import Funciones from './components/Funciones';
+import Card from './components/Cards';
 
 function App() {
   let auth = false;
@@ -31,6 +33,20 @@ function App() {
         booleano={true}
         array = {[1,2,3]} />
         <br />
+
+        <Funciones primero={50} segundo={24} />
+
+        <br />
+      <div className="row">
+        <Card 
+          title="Hola Mundo!" 
+          text="Lorem Ipsum  ipsum dolor amet amet ipsum dolor amet amet ipsum dolor amet amet" 
+        />
+        <Card 
+          title="Hola Mundo!" 
+          text="Lorem Ipsum  ipsum dolor amet amet ipsum dolor amet amet ipsum dolor amet amet" 
+        />
+      </div>
       </section>
       </header>
     </div>

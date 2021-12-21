@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: rgb(107, 107, 107);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +35,20 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Tarjeta{
+  border: 5px solid;
+  border-color: aqua;
+  border-radius: 20px;
+  margin: 2em;
+  box-shadow: 1px 0 10px rgb(0 0 0 / 40%);
+}
+.Tarjeta:hover{
+  border: 5px solid;
+  border-color: rgb(226, 214, 42);
+  border-radius: 20px;
+  margin: 2em;
+  box-shadow: 1px 0 10px rgb(0 0 0 / 40%);
+  transition: .5s;
 }
