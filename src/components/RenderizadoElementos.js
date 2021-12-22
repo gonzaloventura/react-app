@@ -1,26 +1,42 @@
 import React from 'react'; 
+import data from '../helpers/data.json';
 
-class RenderizadoElementos extends React.Component {
-    constructor(props) {
+function ElementoLista(props){
+    return(
+        <a href={props.el.web} target="_blank">
+            {props.el.name}
+        </a>
+    )
+}
+
+class RenderizadoElementos extends React.Component{
+    constructor(props){
         super(props);
         this.state = {
-            estaciones: ["Verano","Otoño","Invierno","Primavera"],
+            estaciones: ["Primavera", "Verano", "Otoño", "Invierno"],
         }
-    }
+    };
     render() {
-        return (
-        <div>
-            <h2>Renderizado de Elementos</h2>
-            <p>
-            <ol> 
-                {this.state.estaciones.map((el,index)=>
-                <li key={index}>{el}</li> // Muestro la lista de estaciones en lista ordenada
-                )}
-            </ol>
-            </p>
+        console.log(data);
+        return(
+            <div>
+                <h2>Renderizado de elementos</h2>
+                <ul>
+                    {this.state.estaciones.map((el,index)=>
+                        <li key={index}>{el}</li>
+                    )}
+                </ul>
+                <li>
+                    <h3>Frameworks</h3>
+                    <ul>
+                        {data.frameworks.map((el,index) => <li>
+                            <ElementoLista key={el.id} el={el} />
+                        </li>)}
+                    </ul>
+                </li>
             </div>
         );
-    }   
+    }
 }
 
 export default RenderizadoElementos;
