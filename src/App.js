@@ -5,6 +5,7 @@ import Propiedades from './components/Propiedades';
 import Funciones from './components/Funciones';
 import Card from './components/Cards';
 import Estado from './components/Estado';
+import RenderizadoCondicional from './components/RenderizadoCondicional';
 
 function App() {
   let auth = false;
@@ -55,6 +56,8 @@ function App() {
         />
 
         <Estado msg="Esto es un estado" />
+
+        <RenderizadoCondicional numero={10} />
       </div>
       </section>
       </header>
