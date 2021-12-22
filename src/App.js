@@ -31,7 +31,13 @@ function App() {
         cadena="Esto es una cadena de texto"
         numero={19}
         booleano={true}
-        array = {[1,2,3]} />
+        array = {[1,2,3]}
+        objeto = {{nombre: "juan", correo: "juanperez@gmail.com"}}
+        funcion = {(num) => num*num} 
+        elementoReact = {<i>Esto es un elemento React</i>}
+        componenteReact = {<Componente msg = "Soy un componente pasado como props" />}
+        
+        />
         <br />
 
         <Funciones primero={50} segundo={24} />
