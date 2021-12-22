@@ -37,6 +37,10 @@
   }
 }
 
+.Tarjeta-container{
+  display: inline-flex;
+}
+
 .Tarjeta{
   border: 5px solid;
   border-color: aqua;
