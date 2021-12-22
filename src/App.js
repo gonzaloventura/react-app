@@ -4,6 +4,7 @@ import Componente from './components/Componente';
 import Propiedades from './components/Propiedades';
 import Funciones from './components/Funciones';
 import Card from './components/Cards';
+import Estado from './components/Estado';
 
 function App() {
   let auth = false;
@@ -52,6 +53,8 @@ function App() {
           title="Hola Mundo!" 
           text="Lorem asd Ipsum  ipsum dolor amet amet ipsum dolor amet amet ipsum dolor amet amet" 
         />
+
+        <Estado msg="Esto es un estado" />
       </div>
       </section>
       </header>
