@@ -56,7 +56,7 @@ function App() {
           text="Lorem asd Ipsum  ipsum dolor amet amet ipsum dolor amet amet ipsum dolor amet amet" 
         />
 
-        <Estado msg="Esto es un estado" />
+        <Estado msg="Esto es un estado actualizado" />
 
         <RenderizadoCondicional numero={10} />
 
