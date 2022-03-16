@@ -53,7 +53,7 @@ function App() {
         />
         <Card 
           title="Hola Mundo!" 
-          text="Lorem asd Ipsum  ipsum dolor amet amet ipsum dolor amet amet ipsum dolor amet amet actualizado" 
+          text="Lorem asd 9 y 51 amet actualizado" 
         />
 
         <Estado msg="Esto es un estado actualizado 9 y 51" />
