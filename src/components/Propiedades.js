@@ -6,7 +6,7 @@ export default function Propiedades(props){
     return(
         <div>
             <h2>{props.porDefecto}</h2>
-            <ul className="list-group">
+            <ul>
                 <li className="list-group-item">{props.cadena}</li>
                 <li className="list-group-item">{props.numero}</li>
                 <li className="list-group-item">{props.booleano ? "Verdadero":"Falso"}</li>
